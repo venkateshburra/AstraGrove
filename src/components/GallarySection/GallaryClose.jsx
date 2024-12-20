@@ -6,7 +6,7 @@ export function GallaryClose({ selectedImageIndex, closeImage, images, enlargedI
 
       {/* Enlarged Image Section */}
       <div
-        className="absolute top-[0px] lg:top-[-80px] left-1/2 z-30 transform -translate-x-1/2"
+        className="absolute top-1/2 left-1/2 z-30 transform -translate-x-1/2 -translate-y-1/2"
         ref={enlargedImageRef}
       >
         <div className="relative">
